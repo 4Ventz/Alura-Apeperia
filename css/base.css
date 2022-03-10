@@ -1,0 +1,12 @@
+/*Utilizações gerais para a página inteira*/
+
+/*REM(Root Efemeral) vs EM (Efemeral):
+- “em”, é uma unidade de medida relativa ao font-size, mas especificamente o font-size na tag mãe do elemento que nós estamos utilizando, o “em”.
+        > se utilizarmos o “em”, nós podemos controlar casos isolados, ao invés de controlar toda a página
+
+-Então o “rem” é a mesma coisa, só que ao invés de ser da tag mãe, ele vai ser da tag com o maior nível hierárquico do que todos, que vai ser a tag “html”.
+        > pode se adaptar para tipos diferentes de browser automaticamente, sem que nós precisemos criar ou usar outros tipos de valores que são mais inconsistente*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
